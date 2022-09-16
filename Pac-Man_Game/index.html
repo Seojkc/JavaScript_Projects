@@ -1,0 +1,98 @@
+
+<!-- Seo James-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Snake Game</title>
+
+     <!--CSS bootstrap-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+     rel="stylesheet" 
+     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+     crossorigin="anonymous">
+
+     <link rel="stylesheet" href="index.css">
+
+
+     <!--Javascript bootstrap-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+</head>
+
+<body>
+     <!--Welcome header 3 parts:-->
+    <div  class="d-flex justify-content-between px-2 headingTAg">
+
+        <!--Circle animation  -->
+        <svg width="1200" height="200"><circle class="roundshape" cx="60" cy="80" r="25"></circle>
+        <!--text in svg-->
+        <text x="200" y="80" class="Style" id="heading">Welcome to SVG Pac-Man Game @</text></svg>
+    </div>
+    <div class="container">
+        <p class="p-2">PLease Enter Your Name First </p>
+        <input type="text" placeholder="Don" id="name"><button id="Submit" class="buttons">Submit</button>
+         <!--Restart button-->
+        <button id="restart" class="buttons">Restart</button>
+        <div><h2 id="score"></h2></div>
+    </div>
+        
+    <!--game box creating here with id gamebox-->
+    <div class="d-flex justify-content-around">
+        <div id="gameBox" >
+            <svg id="svgBox" width="600" height="400">
+            </svg>
+        </div>
+
+        <div class="controlBox ">
+        
+            <div class="leftk " >
+                <button id="up" class="controlw lfk">^</button>
+            </div>
+            <div>
+                <button id="left" class="upk controlw">{</button>
+                <button id="right" class ="controlw">></button>
+            </div>
+            <div class="leftk">
+                <button id="down" class="controlw lfk">v</button>
+            </div>
+        </div>
+    </div>
+   
+    <!--navigation console-->
+   <div class="container">
+    <p >catch the prey before 40s.Each one score 5.Hover the cursors to give the pac-man direction </p>
+
+   </div>
+    
+   
+    
+    
+
+
+
+
+   
+
+
+
+    <script src="index.js"></script>
+    <footer id="footer" >
+         <!--SVG wave is created and edited manually with the help of an external website -->
+    <!--source : https://svgwave.in/-->
+<svg width="100%" height="100%" id="svg" viewBox="0 0 1440 500" xmlns="http://www.w3.org/2000/svg" 
+class="transition duration-300 ease-in-out delay-150"><defs><linearGradient id="gradient" x1="97%" y1="67%" x2="3%" y2="33%"><stop 
+    offset="5%" stop-color="#ff690088"></stop><stop offset="95%" stop-color="#fcb90088"></stop></linearGradient></defs><path
+     d="M 0,500 C 0,500 0,166 0,166 C 159.86666666666667,194.53333333333333 319.73333333333335,223.06666666666666 462,215 C 604.2666666666667,206.93333333333334 728.9333333333334,162.26666666666665 889,148 C 1049.0666666666666,133.73333333333335 1244.5333333333333,149.86666666666667 1440,166 C 1440,166 1440,500 1440,500 Z" 
+     stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150 path-0"></path><defs><linearGradient  x1="97%" y1="67%" x2="3%" y2="33%"><stop offset="5%" stop-color="#ff6900ff"></stop><stop offset="95%" stop-color="#fcb900ff"></stop></linearGradient></defs><path 
+     d="M 0,500 C 0,500 0,333 0,333 C 130.2666666666667,303.1333333333333 260.5333333333334,273.2666666666667 408,289 C 555.4666666666666,304.7333333333333 720.1333333333332,366.0666666666667 895,381 C 1069.8666666666668,395.9333333333333 1254.9333333333334,364.46666666666664 1440,333 C 1440,333 1440,500 1440,500 Z" stroke="none"
+      stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150 path-1"></path></svg>
+
+        <p class=" py-5 ">© Seo James, Mohawk College, 2022</p>
+    </footer>
+</body>
+</html>

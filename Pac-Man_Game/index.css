@@ -1,0 +1,91 @@
+
+body{
+    min-width: 1000px !important;
+}
+
+
+.headingTAg{
+    background-color: black;
+}
+#gameBox{
+    width: 600px;
+    height: 400px;
+    border: 5px solid red;
+    background-color: rgb(255, 255, 255);
+    margin: 20px 20px;
+}
+#name{
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+
+
+.leftk{
+    margin-left: 20px;
+}
+
+.upk{
+    margin-right: 50px;
+}
+.controlBox{
+    padding: 20px;
+}
+.controlw{
+    width: 50px;
+    height: 50px;
+}
+
+.lfk{
+    margin-left: 35px;
+}
+
+#gameBox{
+    background-color: rgb(0, 208, 255);
+}
+.Style{
+    width: 200px; 
+  border: 1px solid #000000;
+ font-size: 50px;
+ font-weight: bold;
+
+ fill: red;
+ font-style: italic;
+}
+.roundshape{padding-top: 20px;
+       
+        width: 100px;
+        height: 100px;
+        fill:red;
+        
+        animation-name: example;
+        animation-duration: 5s;
+        animation:  example 1s linear infinite;
+      }
+      
+      @keyframes example {
+        from {fill: red;}
+        to {fill: yellow;}
+      }
+
+.buttons{
+    background-color: aquamarine;
+    color: black;
+    border: solid salmon 2px;
+    width: 100px;
+    height: 50px;
+}
+div.container {
+background-color: #ffffff;
+}
+div.container p {
+text-align: left;
+font-family: Garamond;
+font-size: 22px;
+font-style: italic;
+font-weight: bold;
+text-decoration: underline;
+text-transform: lowercase;
+color: #ff0000;
+background-color: #ffffff;
+}

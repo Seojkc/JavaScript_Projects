@@ -1,0 +1,88 @@
+/**
+Seo James
+used to design the border
+*/
+.border{margin: 200px;
+    padding: 10px 10px;
+
+
+}
+/**
+used to get the Circle Animation
+*/
+.Animationcircle{
+    fill: rgb(255, 255, 0);
+    stroke: rgb(27, 72, 140);
+        animation: emple 1s linear infinite;  
+        transition: .2s ease-in-out;
+        }
+        @keyframes emple{
+        100%{
+            fill: rgb(17, 255, 0);
+        }
+}
+/**
+used to design the arrow key right 
+*/
+.rightBox{
+    padding-top:200px ;
+}
+.rightBox>div{
+    padding-top: 100px;
+    
+}
+.rightBox>div>button{
+    padding: 20px 20px;
+    
+}
+
+/**
+giving green color to the both side of the road.
+*/
+.grass{
+    height:100px;
+    background-color: rgb(20, 222, 13);
+}
+/**
+used to give the roade border
+*/
+.roadBorder{
+    height: 300px;
+    background-color: black;
+}
+/**
+used to give the arrow key padding and margin
+*/
+.forward{
+    padding: 10px 10px;
+    margin: 250px;
+}
+/**
+used to give the arrow key padding and margin
+*/
+.backward{
+    padding: 10px 10px;
+    margin: 250px;
+}
+
+
+.border{
+    width: 800px;
+}
+#Box{
+    width: 800px;
+    height: 300px;
+}
+/**
+used to give the cross bar for the road and cross bar is moving 
+*/
+
+.crossBar{
+        animation: cross 8s linear infinite;  
+        transition: .2s ease-in-out;
+        }
+        @keyframes cross{
+        100%{
+            transform:translateX(400px);
+        }
+    }
